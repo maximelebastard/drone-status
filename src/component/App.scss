@@ -1,0 +1,18 @@
+@import "../colors";
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.App {
+    height: 100%;
+    width: 100%;
+    
+    background-color: $whiteBg;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+}

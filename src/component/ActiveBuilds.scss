@@ -1,0 +1,77 @@
+@import "../colors";
+
+.ActiveBuild {
+    margin: 12px;
+    padding: 12px 24px;
+
+    background: $white;
+    border: 1px solid $lightBlue;
+    box-shadow: 0px 2px 8px rgba(29, 29, 29, 0.3);
+    align-self: auto;
+
+    line-height: 30px;
+    color: $darkBlue;
+
+
+    .repo {
+        font-size: 24px;
+        font-weight: 900;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+
+        img {
+            display: block;
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+    .message {
+        font-size: 16px;
+    }
+
+    .event {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+
+        color: $lightGrey;
+        font-size: 16px;
+
+        &>img, &>span {
+            margin-right: 6px;
+        }
+
+        img {
+            height: 24px;
+            width: 24px;
+            border-radius: 100%;
+        }
+
+        .avatar {
+            margin-right: 16px;
+        }
+    }
+
+    .repo-item-label {
+        color: $blue;
+        background: $lightBlue;
+        padding: 0 6px;
+        border-radius: 1px;
+    }
+}
+
+.ActiveBuilds {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+}

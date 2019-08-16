@@ -1,4 +1,13 @@
-## Drone Status
+# Drone Status
+
+## Archived
+
+The need of this project has been fulfilled by adding a Drone service to the [node-build-monitor](https://github.com/marcells/node-build-monitor) project.
+
+See the PR here https://github.com/marcells/node-build-monitor/pull/185
+
+
+
 
 **ONGOING WORK, NOT FINALIZED** See the Todo list behind.
 
